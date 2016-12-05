@@ -1,0 +1,123 @@
+@import "reset";
+@import "common";
+*{
+  margin:0;
+  padding:0;
+}
+html,body,.fo_container{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  font-size: 0.32rem;
+}
+.fo_hed{
+  width: 100%;
+  height:0.88rem;
+  position: relative;
+  h5{
+    font-size:0.32rem;
+    color: #333333;
+    text-align: center;
+    line-height: 0.88rem;
+  }
+  span{
+    font-size:0.42rem;
+    position: absolute;
+    top:30%;
+    left:5%;
+  }
+}
+.fo_main {
+  background: url('../img/two3.jpg') no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .fo_box{
+    width: 5rem;
+    height:8rem;
+    position: absolute;
+    top:11%;
+    left: 11%;
+    h2{
+      font-size:0.4rem;
+      color: #AF0601;
+      text-align: center;
+      padding-top:12%;
+    }
+    .fo_noyo{
+      padding-top:12%;
+
+      span{
+        color: #333333;
+        position: relative;
+        &:nth-child(1){
+          padding-left:23%;
+        }
+        &:nth-child(2){
+          padding-left:23%;
+          margin-left:0.5rem;
+        }
+        input{
+          z-index:999;
+          position: absolute;
+          margin-right:2%;
+          opacity: 0;
+        }
+        label{
+          width: 0.38rem;
+          height:0.38rem;
+          background:url('../img/two8.png')no-repeat;
+          background-size:100% 100%;
+          position: absolute;
+        }
+        input[type='radio']:checked+label{
+          background:url("../img/two7.png")no-repeat;
+          background-size:100% 100%;
+        }
+        em{
+          text-align:center;
+          position: absolute;
+          top:0;
+          left:1.7rem;
+        }
+      }
+    }
+    .fo_jibing{
+      width: 4.38rem;
+      height:2.09rem;
+      border:1px solid #ccc;
+      margin-top: 8%;
+      margin-left:7%;
+      display: none;
+      ul{
+        li{
+          display:inline-block;
+          border:1px solid #ccc;
+          width: 1.13rem;
+          height:0.4rem;
+          margin-left:0.2rem;
+          margin-top:0.2rem;
+          font-size:0.22rem;
+          text-align: center;
+          line-height: 0.4rem;
+          color: #333335;
+
+        }
+      }
+    }
+    .fo_footer{
+      button{
+        width: 2.18rem;
+        height:0.76rem;
+        color: #AF0700;
+        background:#FFD66D;
+        border:none;
+        border-radius: 10px;
+        position: absolute;
+        bottom:5%;
+        left: 30%;
+      }
+    }
+  }
+}
