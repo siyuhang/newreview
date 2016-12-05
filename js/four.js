@@ -1,4 +1,5 @@
-require(['../scss/four.scss','./main.js']);
+require('../scss/four.scss');
+require('./main');
 $('.fo_noyo span').on('click',function(){
     if($(this).index()==1){
         $('.fo_jibing').show();

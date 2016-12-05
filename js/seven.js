@@ -1,7 +1,6 @@
-require(['../scss/seven.scss','./main.js','../lib/iscroll5.js']);
+require('../scss/seven.scss');
+require('./main');
 
-var isc = new IScroll("#isco");
- isc.refresh();
 //结果页菜单伸缩效果
 $('.downy').on('click',function(){
     if(!$(this).hasClass("rotate")){

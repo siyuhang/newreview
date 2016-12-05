@@ -1,5 +1,5 @@
-require(['../scss/two.scss','./main.js']);
-
+require('../scss/two.scss');
+require('./main');
 $('.yt_btn').on('click',function(e){
     e.preventDefault();
    var checkedBox= $(this).parent('.yt_tdbox').find(":checked"),

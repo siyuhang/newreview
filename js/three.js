@@ -1,4 +1,5 @@
-require(['../scss/three.scss','./main.js']);
+require('../scss/three.scss');
+require('./main');
 /*document.getElementsByClass('re_noyo input').on('click',function(){
     alert(1)
 });*/

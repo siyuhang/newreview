@@ -1,4 +1,5 @@
-require(['../scss/dialog.scss','./main.js']);
+require('../scss/dialog.scss');
+require('./main');
 $('.ceshi').on('click',function(){
     location.href = 'six.html';
 });
